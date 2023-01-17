@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Hisory
+```bash
+npx create-react-app "my-app"
+cd my-app
+npm start
+
+git init && git add -A && git commit -m "Initial commit"
+git branch -M main
+git remote add origin git@github.com:oh-my-git-bootcamp/fictional-train.git
+git push -u origin main
+
+npm install gh-pages --save-dev
+code .
+npm run deploy
+```
